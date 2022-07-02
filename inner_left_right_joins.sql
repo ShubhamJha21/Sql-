@@ -76,7 +76,7 @@ select * from projects
 -- left join  = inner join + all values in left table 
 -- right join = inner join + all values in right table 
 
---fetch employee name and thier respective id
+--fetch employee name and thier respective department id
 select e.emp_name,d.dept_id 
 from employee e inner join department d on e.dept_id=d.dept_id
 
